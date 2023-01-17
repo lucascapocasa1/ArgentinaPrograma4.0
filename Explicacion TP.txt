@@ -1,0 +1,19 @@
+Buenas profes, mi nombre es Lucas, y les queria comentar un poco algunas cuestiones de mi TP.
+
+Los datos que utilicé son en parte mios, una parte sacados de la página de datos ficticios que se 
+recomienda utilizar, y la otra parte fueron agregados para darle más agregados al CV.
+No utilicé "lorem" en los textos, sino que utilicé textos y datos potencialmente reales, para colaborar
+justamente con la vitalidad del CV.
+Los colores utilizados fueron tonos azules/celestes ya que, según me pude informar, es lo que se recomienda
+para curriculums de profesionales IT.
+
+
+Yo ya tengo experiencia en programación (Python, C++ y Pseudocódigo), por lo cual no tuve grandisimos inconvenientes al
+momento de realizar el TP. En lo que me trababa, intentaba buscar en Internet la solución.
+Mi mayor duda fue ver en que parte del curriculum podría agregar funcionalidades de JavaScript, lo cual solucioné
+agregando redireccionamiento a links, tanto al Linkedin de la persona, como a los lugares donde trabajó.
+
+Sin más que decir, estoy abierto a leer su devolución y sugerencias para que, en caso de ser necesario, mejorar
+el TP.
+
+Desde ya, muchas gracias por la atención.
