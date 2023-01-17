@@ -1,0 +1,307 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 850px;
+    min-height: 500px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+}
+
+.container .lado_izquierdo
+{
+    position: relative;
+    background: darkblue;
+    padding: 40px;
+}
+
+.nombre_y_ocupacion
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.nombre_y_ocupacion .imgBx
+{
+    position: relative;
+    width: 220px;
+    height: 270px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.nombre_y_ocupacion .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.nombre_y_ocupacion h2
+{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+
+.nombre_y_ocupacion h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.info_de_contacto
+{
+    padding-top: 40px;
+}
+
+.titulo_izquierda
+{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info_de_contacto ul
+{
+    position: relative;
+
+}
+
+.info_de_contacto ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    width: 250px;
+}
+
+.info_de_contacto ul li .icono
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: aqua;
+}
+
+.info_de_contacto ul li span
+{
+    color: white;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#link
+{
+    cursor: pointer;
+}
+
+#link:hover
+{
+    transition: background-color 1s;
+    background-color: rgb(204, 146, 0);
+    color: white;
+    border-radius: 2px;
+}
+
+
+.info_de_contacto.educacion li
+{
+    margin-bottom: 15px;
+}
+
+.info_de_contacto.educacion h5
+{
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.info_de_contacto.educacion h4
+{
+    color: #fff;
+    font-weight: 500 solid;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.info_de_contacto.habilidades .porcentaje
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgba(3, 3, 3, 0.788);
+    border: 0.5px solid rgb(255, 255, 255);
+    display: block;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.info_de_contacto.habilidades .porcentaje div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: aqua;
+}
+
+.container .lado_derecho
+{
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+
+.cajas_derecha
+{
+    margin-bottom: 50px;
+}
+
+.cajas_derecha:last-child
+{
+    margin-bottom: 0;
+}
+
+.titulo_derecha
+{
+    color: darkblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.titulo_derecha .mostrar
+{
+    padding-left: 0px;
+    cursor: pointer;
+}
+.titulo_derecha .ocultar
+{
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+p
+{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.cajas_derecha .caja
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+
+.cajas_derecha .caja .año_y_empresa
+{
+    min-width: 150px;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.cajas_derecha .caja .año_y_empresa h5
+{
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 600;
+}
+
+.cajas_derecha .caja .año_y_empresa #link
+{
+    margin-top: 10px;
+    width: 100px;
+}
+
+
+.cajas_derecha .caja .texto h4
+{
+    text-transform: uppercase;
+    color: rgb(3, 0, 177);
+    font-size: 16px;
+
+}
+
+.habilidades .caja
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades .caja h4
+{
+    text-transform: uppercase;
+    color: black;
+    font-style: normal;
+    font-weight: bold 500;
+}
+
+.habilidades .caja .porcentaje
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: grey;
+    border: 0.5px solid black;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.habilidades .caja .porcentaje div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+}
